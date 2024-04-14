@@ -22,8 +22,11 @@ p {
 }
 
 .intro-chunk {
-  max-width: 415px;
   padding: 96px 24px 64px 24px;
+}
+
+.intro-chunk p {
+  max-width: 415px;
 }
 
 strong {
@@ -52,7 +55,7 @@ main {
 h2 {
   background-color: hsl(45deg 100% 50% / 1);
   padding: 2rem 1rem;
-  width: max-content;
+  width: fit-content;
   margin-left: -32px;
   border-bottom: solid 8px hsl(45deg 100% 40% / 1);
   margin-top: 0px;
