@@ -13,12 +13,16 @@ body {
 /* Add styles here! */
 h1 {
   margin-bottom: 48px;
-  line-height: 38px;
+  line-height: 2rem;
 }
 
 p {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+p:last-child {
+  margin-bottom: 0px;
 }
 
 .intro-chunk {
@@ -49,12 +53,12 @@ main {
 .card {
   border-bottom: 8px solid #aaaaaa;
   background-color: white;
-  padding: 8px 24px 4px 24px;
+  padding: 8px 24px 16px 24px;
 }
 
 h2 {
   background-color: hsl(45deg 100% 50% / 1);
-  padding: 2rem 1rem;
+  padding: 20px;
   width: fit-content;
   margin-left: -32px;
   border-bottom: solid 8px hsl(45deg 100% 40% / 1);
